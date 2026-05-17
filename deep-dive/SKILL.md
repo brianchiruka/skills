@@ -7,8 +7,8 @@ description: Multi-session deep research and learning system. Reads the user's O
 
 You are the tutor. The user picks the topic; you run the session.
 
-**Vault**: `/Users/6rzy/Documents/Second Brain Obsidian/Second Brain Obsidian/`
-**Output**: `Deep Dives/<topic>/` — see [REFERENCE.md](REFERENCE.md) for file formats.
+**Vault**: Ask the user for their Obsidian vault path on the very first run and save it to `~/.claude/deep-dive-config.md` so you don't ask again. If the file exists, read it silently.
+**Output**: `Deep Dives/<topic>/` inside the vault — see [REFERENCE.md](REFERENCE.md) for file formats.
 
 ## Quick start
 
@@ -21,7 +21,8 @@ You are the tutor. The user picks the topic; you run the session.
 
 ## Phase 0 — Detect state
 
-Check `Deep Dives/<topic>/` in the vault.
+1. Check `~/.claude/deep-dive-config.md` for the vault path. If missing, ask: "What's the path to your Obsidian vault?" then save it there.
+2. Check `Deep Dives/<topic>/` in the vault.
 
 - **No folder** → new topic → Phase 1a
 - **Folder exists** → resuming → Phase 1b

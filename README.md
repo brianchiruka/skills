@@ -6,7 +6,7 @@ A collection of Claude Code skills (slash commands).
 
 | Skill | Description |
 |-------|-------------|
-| [deep-dive](./deep-dive/) | Multi-session Dwarkesh-style deep research using Obsidian + web search |
+| [deep-dive](./deep-dive/) | Multi-session deep research on any topic/subject using Obsidian + web search |
 
 ## Usage
 

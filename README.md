@@ -7,7 +7,6 @@ A collection of Claude Code skills (slash commands).
 | Skill | Description |
 |-------|-------------|
 | [deep-dive](./deep-dive/) | Multi-session deep research on any topic/subject using Obsidian + web search |
-
 | [seo](./seo/) | SEO content pipeline: keyword research, clustering, articles, internal links, and refreshes |
 
 ## Usage
